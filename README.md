@@ -33,5 +33,5 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Tanishk479/Code_Breaker_Fix_My_Hostel.git](https://github.com/Tanishk479/Code_Breaker_Fix_My_Hostel.git)
-cd Code_Breaker_Fix_My_Hostel
+git clone https://github.com/KrishAryan/Fix-My-Hostel.git
+cd Fix-My-Hostel
