@@ -1,0 +1,1 @@
+const fs=require("fs"); const bcrypt=require("bcryptjs"); const p="./src/data/db.json"; const db=JSON.parse(fs.readFileSync(p,"utf8")); const h=bcrypt.hashSync("password",10); db.users.forEach(u=>u.password=h); fs.writeFileSync(p,JSON.stringify(db,null,2)); console.log("Auth fixed");
