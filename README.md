@@ -51,7 +51,7 @@ Create a `.env.local` file in the root directory and add the required environmen
 
 `GEMINI_API_KEY=your_gemini_api_key`
 
-> Replace `your_gemini_api_key` with your actual Google Gemini API key.
+> Replace `your_gemini_api` with your actual Google Gemini API.
 
 ### 4. Run the Development Server
 
@@ -59,4 +59,4 @@ Start the Next.js development server.
 
 `npm run dev`
 
-The application will be available at **http://localhost:3000**.
+
