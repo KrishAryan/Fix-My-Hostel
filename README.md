@@ -32,8 +32,31 @@
 Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/KrishAryan/Fix-My-Hostel.git
-cd Fix-My-Hostel
-npm install
-npm run dev
+
+Clone the repository and navigate to the project directory.
+
+`git clone https://github.com/KrishAryan/Fix-My-Hostel.git`
+
+`cd Fix-My-Hostel`
+
+### 2. Install Dependencies
+
+Install all the required project dependencies.
+
+`npm install`
+
+### 3. Configure Environment Variables
+
+Create a `.env.local` file in the root directory and add the required environment variables.
+
+`GEMINI_API_KEY=your_gemini_api_key`
+
+> Replace `your_gemini_api_key` with your actual Google Gemini API key.
+
+### 4. Run the Development Server
+
+Start the Next.js development server.
+
+`npm run dev`
+
+The application will be available at **http://localhost:3000**.
